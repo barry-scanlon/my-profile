@@ -1,0 +1,108 @@
+body{
+	background-color: rgb(250,248,212);
+	color: black;
+}
+
+body{ 
+	font-family: Helvetica;
+	font-size: 18px;
+	line-height: 1.2;
+ }
+
+img{
+	border-radius: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+h1{ 
+	font-size: 46px;	
+ }
+
+a{
+	text-decoration: none;
+	color: rgb(151,130,155);
+}
+
+a:hover {
+	color: orange;
+}
+
+h2 {
+	color: rgb(98,85,93);
+	font-size: 24px;
+}
+
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+.box-white{
+	background-color: rgba(240,240,240,0.2);
+	padding: 40px;
+	box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 45%;
+	bor
+}
+
+.btn-blue{
+	background-color: rgb(246,174,45);
+	color: black;
+	padding: 6px;
+	border-radius: 3px;
+}
+
+.btn-blue:hover{
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(246,174,45);
+}
+
+.list-inline i:hover{
+	color: white;
+}
+
+#intro p {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
